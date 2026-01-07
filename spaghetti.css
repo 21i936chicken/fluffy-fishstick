@@ -1,0 +1,24 @@
+/*jumpscare page*/
+.darkness{background-color: black; text-align: center;}
+#greeting{text-align: center; padding: 10px;}
+#greeting a{color: red;}
+
+#line{padding: 0px}
+
+#orderpagecontent{padding: 100px; text-align: center;}
+#orderpagecontent a{color: lightcoral;  }
+#orderpagecontent #orderbutton{font-size: 100px; border: 10px solid red; padding: 30px;}
+
+#justablanknothing{padding: 50px; text-align: center;}
+#justablanknothing a{color: rgb(29, 28, 28); font-size: 15px;}
+
+#thankforeating{color: aliceblue;}
+
+#spaghettiheadings{padding: 30px; color: aliceblue; text-align: center;}
+#getmyspaghetti{padding: 30px;}
+#getmyspaghetti a{color: yellow;}
+#eatbutton{text-align: center; font-size: 80px; padding: 40px;}
+#eatbutton a{color:blueviolet; border: 10px solid greenyellow; padding: 10px; background-color: aquamarine;}
+
+#returnbutton{text-align: center; padding: 15px;}
+#returnbutton a{border: 10px solid coral; padding: 20px; background-color: lightblue;}

@@ -1,7 +1,14 @@
-/*header*/
-header{background: lightblue; text-align:right; display:flex; align-items: center;}
-header #menu {flex: 1;}
+*{margin: 0; padding: 0;}
 
-/*untitled.html background*/
-.darkness{background-color: black;}
-#greeting{color: red; text-align: center;}
+/*header*/
+header{padding:30px; background-color: rgb(59, 57, 84); text-align:right; display:flex; align-items: center; position: sticky; top: 0;}
+header #menu {flex: 1;}
+.menus{padding: 15px;}
+header a{color: aliceblue;}
+
+#content{padding: 30px; background-color: lightgrey;}
+
+#titlegrids{background-color: cyan; padding: 13px; text-align: center;}
+#grids{padding: 13px; text-align: center; background-color: pink;}
+
+#images{padding: 20px 0px;}
