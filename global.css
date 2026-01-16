@@ -4,11 +4,52 @@
 header{padding:30px; background-color: rgb(59, 57, 84); text-align:right; display:flex; align-items: center; position: sticky; top: 0;}
 header #menu {flex: 1;}
 .menus{padding: 15px;}
-header a{color: aliceblue;}
+header a{color: aliceblue; text-decoration: none;}
 
-#content{padding: 30px; background-color: lightgrey;}
+#content{padding: 30px; background-color: lightgrey; text-align: center;}
+#table{border-color: aqua; padding: 20px; width: 100%;}
+#titlegrids{background-color: rgb(12, 114, 38); padding: 13px; text-align: center; color: aquamarine;}
+#grids{padding: 13px; text-align: center; background-color: rgb(109, 65, 29); color: rgb(255, 209, 180);}
 
-#titlegrids{background-color: cyan; padding: 13px; text-align: center;}
-#grids{padding: 13px; text-align: center; background-color: pink;}
+#spaghettilink{padding: 30px; background-color: lightgrey; text-align: center;}
+#logo{text-align: left;}
+#rowsofidenticalmen{background-color: lightgrey; text-align: center; font-size: 40px;}
+#rowwithdiff{background: lightgrey; text-align: center; font-size: 40px;}
+#mousepoo{text-decoration: none;}
+#rowsofidenticalmen2{background-color: lightgrey; text-align: center; font-size: 40px; padding: 0px 0px 30px 0px;}
+#oddoneout{padding: 30px; background-color: lightgrey; text-align: center;}
 
-#images{padding: 20px 0px;}
+#swimminginsoup{text-align: center; font-size: 30px; padding: 500px 200px 500px 200px; background-image: url(swimminginsoup.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+
+#sealink{font-size: 30px; text-align: center; padding: 100px; background-image: url(seacover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+#sealink a{color: black; text-decoration: none;}
+#sea{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(wavescrashing.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#forestlink{font-size: 30px; text-align: center; padding: 100px; background-image: url(forestcover.jpg); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+#forestlink a{color: black; text-decoration: none;}
+#forest{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(forest.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#desertlink{font-size: 30px; text-align: center; padding: 100px; background-image: url(desertcover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+#desertlink a{color: black; text-decoration: none;}
+#desert{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(desert.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#savannalink{font-size: 30px; text-align: center; padding: 100px; background-image: url(savannacover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+#savannalink a{color: black; text-decoration: none;}
+#savanna{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(savanna.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#riverlink{font-size: 30px; text-align: center; padding: 100px; background-image: url(rivercover.jpg); background-size: 100% 130%; background-position: center; background-repeat: no-repeat;}
+#riverlink a{color: black; text-decoration: none;}
+#river{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(river.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#caveslink{font-size: 30px; text-align: center; padding: 100px; background-image: url(cavescover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+#caveslink a{color: grey; text-decoration: none;}
+#caves{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(caves.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#dreamlink{font-size: 30px; text-align: center; padding: 100px; background-color: black;}
+#dreamlink a{color: white; text-decoration: none;}
+#dream{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#link3footer{color: black;font-size: 20px; border: 30px solid rgb(37, 56, 79); padding: 150px; background-image: url(snowingsnoopy.gif); background-size:cover; background-position:center 40%; background-repeat: no-repeat;}
+#homepagefooter{color: rgb(157, 157, 157);font-size: 20px; background-color:rgb(36, 52, 71); border: 30px solid rgb(181, 181, 181); padding: 150px; background-image: url(walkingbear.gif); background-size:contain; background-position:center; background-repeat: no-repeat;}
+#tablefooter{color: black;font-size: 20px; border: 30px solid rgb(31, 31, 68); padding: 150px; background-image: url(footerboat.gif); background-size: cover; background-position:center 100%; background-repeat: no-repeat;}
+#link5footer{text-align: center; color: rgb(255, 255, 255);font-size: 20px; border: 30px solid rgb(31, 31, 68); padding: 150px; background-image: url(watersparkle.gif); background-size: 100% 100%; background-position:center; background-repeat: no-repeat;}
