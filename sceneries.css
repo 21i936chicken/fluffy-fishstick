@@ -1,0 +1,76 @@
+*{margin: 0px; padding: 0px;}
+body{cursor: url(robloxaimcursor.png), auto;}
+button, a{cursor: url(pixelatedpointer.png), pointer;}
+
+#header{padding:20px; background-image: url(woodtexture.jpg); background-size: 100% 250%; background-position: center; background-repeat: no-repeat; text-align:left; display:flex; align-items: center;}
+header #menu {flex: 1;}
+.menus{padding: 5px;}
+header a{color: black; font-size: 20px; text-decoration: none; transition: 0.2s ease;}
+header img{width: 5%;}
+header a:hover{color: rgb(149, 90, 44);}
+
+#sealink{font-size: 30px; text-align: center; padding: 100px; background-image: url(seacover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+#sealink a{color: black; text-decoration: none;}
+#sealink a:hover{color: rgb(46, 77, 144);}
+#sea{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(wavescrashing.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#forestlink{font-size: 30px; text-align: center; padding: 100px; background-image: url(forestcover.jpg); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+#forestlink a{color: rgb(208, 227, 204); text-decoration: none;}
+#forestlink a:hover{color: rgb(84, 116, 64);}
+#forest{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(forest.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#desertlink{font-size: 30px; text-align: center; padding: 100px; background-image: url(desertcover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+#desertlink a{color: black; text-decoration: none;}
+#desertlink a:hover{color: rgb(201, 158, 80);}
+#desert{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(desert.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#riverlink{font-size: 30px; text-align: center; padding: 100px; background-image: url(rivercover.jpg); background-size: 100% 130%; background-position: center; background-repeat: no-repeat;}
+#riverlink a{color: black; text-decoration: none;}
+#riverlink a:hover{color: rgb(68, 85, 107);}
+#river{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(river.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#tundralink{font-size: 30px; text-align: center; padding: 100px; background-image: url(tundracover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+#tundralink a{color: black; text-decoration: none;}
+#tundralink a:hover{color: rgb(133, 133, 133);}
+#tundra{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(tundra.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#caveslink{font-size: 30px; text-align: center; padding: 100px; background-image: url(cavescover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+#caveslink a{color: grey; text-decoration: none;}
+#caveslink a:hover{color: rgb(70, 67, 67);}
+#caves{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(caves.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+#dreamlink{font-size: 30px; text-align: center; padding: 100px; background-color: black;}
+#dreamlink a{color: white; text-decoration: none;}
+#dreamlink a:hover{color: red;}
+#dream{text-align: right; align-items: flex-start; width: 100%;height: 100%; background-image: url(); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+
+footer{background-image: url(woodtexture.jpg); padding: 30px; background-position: center; background-repeat: no-repeat; background-size: 100% 100%; text-align: center;}
+footer img{width:13%}
+
+#sillyplanetbody{overflow: hidden; background-image: url(mariokart.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; height: 100%}
+#flyingpenguin{width:15%; position: absolute; top: 50px; animation: fly 6s linear infinite;}
+@keyframes fly{0% {transform: translateX(100vw); opacity: 1;} 50%{transform: translateX(-100px); opacity: 1;} 45%{transform: translateX(-100px); opacity: 1;} 99%{transform: translateX(-100px); opacity: 0;} 100%{transform: translateX(-100px); opacity: 1;}}
+@keyframes fly {
+  /* start (right side) */
+  0% {
+    transform: translateX(100vw);
+    opacity: 1;
+  }
+
+  /* finishes flying (4s) */
+  66.67% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+
+  /* instant disappear */
+  66.68% {
+    opacity: 0;
+  }
+
+  /* gone + reset (2s) */
+  100% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+}

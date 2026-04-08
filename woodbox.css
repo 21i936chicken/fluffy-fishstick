@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0;}
+body{cursor: url(robloxaimcursor.png), auto;}
+button, a{cursor: url(pixelatedpointer.png), pointer;}
+
+body{background-image: url(woodencowascends.gif); background-position: center; background-size: 100% 100%;background-repeat: no-repeat; padding: 438px;}
+#stoppage{background-image: url(desktop.jpg); background-position: center; background-size: 100% 100%; background-repeat: no-repeat; padding: 310px;} 
+#woodencow img{transform: translate(600px, 300px)}
+
+#header{padding:30px; background-image: url(woodtexture.jpg); background-size: 100% 250%; background-position: center; background-repeat: no-repeat; text-align:right; display:flex; align-items: center;}
+header #menu {flex: 1;}
+header #logo{text-align: left;}
+.menus{padding: 15px 20px;}
+header a{color: black; font-size: 20px; text-decoration: none; transition: 0.2s ease;}
+header a:hover{color: rgb(149, 90, 44);}
