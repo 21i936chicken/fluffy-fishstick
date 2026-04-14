@@ -50,27 +50,9 @@ footer img{width:13%}
 #sillyplanetbody{overflow: hidden; background-image: url(mariokart.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; height: 100%}
 #flyingpenguin{width:15%; position: absolute; top: 50px; animation: fly 6s linear infinite;}
 @keyframes fly{0% {transform: translateX(100vw); opacity: 1;} 50%{transform: translateX(-100px); opacity: 1;} 45%{transform: translateX(-100px); opacity: 1;} 99%{transform: translateX(-100px); opacity: 0;} 100%{transform: translateX(-100px); opacity: 1;}}
-@keyframes fly {
-  /* start (right side) */
-  0% {
-    transform: translateX(100vw);
-    opacity: 1;
-  }
-
-  /* finishes flying (4s) */
-  66.67% {
-    transform: translateX(-100px);
-    opacity: 1;
-  }
-
-  /* instant disappear */
-  66.68% {
-    opacity: 0;
-  }
-
-  /* gone + reset (2s) */
-  100% {
-    transform: translateX(100vw);
-    opacity: 0;
-  }
-}
+@keyframes fly {0% {transform: translateX(100vw); opacity: 1;} 66.67% {transform: translateX(-100px); opacity: 1;} 66.68% {opacity: 0;} 100% {transform: translateX(100vw); opacity: 0;}}
+#fishinshoes{position: absolute; top:440px; left: 350px; width: 10%;}
+#cowwithwings{position: absolute; animation: float 9s linear infinite; width: 20%;}
+@keyframes float {0% {transform: translate(-100px, 200px);opacity: 1;}20% {transform: translate(25vw, 160px);opacity: 1;} 40% {transform: translate(50vw, 240px); opacity: 1;} 60% {transform: translate(75vw, 150px);opacity: 1;} 70% {transform: translate(100vw, 200px); opacity: 1;} 75% {transform: translate(100vw, 200px); opacity: 0;} 100% {transform: translate(0px, 200px); opacity: 0;}}
+#weirdstar{width: 10%; animation: spin 2s linear infinite; position: absolute; top: 660px; right: 200px;}
+@keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}
