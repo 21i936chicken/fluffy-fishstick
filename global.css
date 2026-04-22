@@ -29,10 +29,16 @@ th, td{border-radius: 12px;}
 #mousepoo{text-decoration: none;}
 #rowsofidenticalmen2{text-align: center; font-size: 40px; padding: 0px 0px 30px 0px;}
 #oddoneout{padding: 30px; text-align: center; color: lightgoldenrodyellow; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: lighter;}
-#oddoneoutbg{background-image: url(blueglowingflow.gif); background-position: center; background-size: 100%; background-repeat: no-repeat;}
+#lilgames{background-image: url(blueglowingflow.gif); background-position: center; background-size: 100%; background-repeat: no-repeat;}
 
 #strawberryelephant{display: flex; text-align: center; align-items: center; padding:30px;}
-#strawberryelephant img{width: 15%;}
+#strawberryelephant img{width: 10%;}
+#elephant1:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant2:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant3:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant4:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant5:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant6:hover{content: url(smallerbluestrawberryelephant.png);}
 
 #spaghettibg{color:white; background-image: url(darkwall.png);background-position: center;background-size: 100%; background-repeat: no-repeat; text-align: center;}
 
