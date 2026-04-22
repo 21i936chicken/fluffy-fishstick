@@ -51,8 +51,12 @@ footer img{width:13%}
 #flyingpenguin{width:15%; position: absolute; top: 50px; animation: fly 6s linear infinite;}
 @keyframes fly{0% {transform: translateX(100vw); opacity: 1;} 50%{transform: translateX(-100px); opacity: 1;} 45%{transform: translateX(-100px); opacity: 1;} 99%{transform: translateX(-100px); opacity: 0;} 100%{transform: translateX(-100px); opacity: 1;}}
 @keyframes fly {0% {transform: translateX(100vw); opacity: 1;} 66.67% {transform: translateX(-100px); opacity: 1;} 66.68% {opacity: 0;} 100% {transform: translateX(100vw); opacity: 0;}}
-#fishinshoes{position: absolute; top:440px; left: 350px; width: 10%;}
+#fishinshoes{position: absolute; top:440px; left: 350px; width: 10%; animation: pulse 0.4s ease-in-out infinite;}
+@keyframes pulse {0% {transform: scale(1);}50% {transform: scale(0.8); }90% {transform: scale(0.8); }100% {transform: scale(1);}}
+#aliencat{width: 20%; position: absolute; top: 300px; left: 100px; opacity: 0.5;}
 #cowwithwings{position: absolute; animation: float 9s linear infinite; width: 20%;}
 @keyframes float {0% {transform: translate(-100px, 200px);opacity: 1;}20% {transform: translate(25vw, 160px);opacity: 1;} 40% {transform: translate(50vw, 240px); opacity: 1;} 60% {transform: translate(75vw, 150px);opacity: 1;} 70% {transform: translate(100vw, 200px); opacity: 1;} 75% {transform: translate(100vw, 200px); opacity: 0;} 100% {transform: translate(0px, 200px); opacity: 0;}}
 #weirdstar{width: 10%; animation: spin 2s linear infinite; position: absolute; top: 660px; right: 200px;}
 @keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}
+#tennisballbird{width: 8%; position: absolute; top: 150px; left: 600px; animation: swirl 6s linear infinite;}
+@keyframes swirl {0% {transform: translate(200px, 200px) rotate(0deg);}25% {transform: translate(300px, 150px) rotate(90deg);}50% {transform: translate(400px, 250px) rotate(180deg);}75% {transform: translate(300px, 350px) rotate(270deg);}100% {transform: translate(200px, 200px) rotate(360deg);}}

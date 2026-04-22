@@ -2,42 +2,47 @@
 body{cursor: url(robloxaimcursor.png), auto;}
 button, a{cursor: url(pixelatedpointer.png), pointer;}
 
-#header{padding: 5px; background: rgb(19, 19, 160); color: white; display: flex; text-align: right; flex: 1; align-items: center; border: 5px groove lightgrey; box-shadow: 3px 5px 10px rgba(0,0,0,0.3); position: sticky; top: 0px; font-family: monospace;}
-header #menu {flex: 1;}
-header #logo{text-align: left; padding-left: 20px;}
-.menus{padding: 15px 20px;}
-header a{color: white; font-size: 20px; text-decoration: none; transition: 0.2s ease;}
-header a:hover{color: rgb(65, 176, 255);}
+#header{padding: 50px; display: flex; text-align: right; flex: 1; align-items: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight:lighter;}
+#header #menu {flex: 1;}
+#header #logo{width: 25%; text-align: left; padding-left: 20px;}
+#header .menus{padding: 15px 30px;}
+#header a{color: lightgoldenrodyellow; font-size: 30px; text-decoration: none; transition: 0.2s ease;}
+#header a:hover{color: rgb(83, 58, 31);}
+#indexbg{color: black; background-image: url(coral.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; text-align: center;}
+#indexcontent{padding: 400px;}
 
-#content{padding: 30px; background-image: url(gradientbackground.jpg); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; text-align: center;}
 #laptoptop{padding: 250px 200px; background-image: url(laptoptop.png); background-size: 110% 110%; background-position: -73px 0px; background-repeat: no-repeat; text-align: center;}
 #laptopmiddle{padding: 30px; background-image: url(laptopmiddle.png); background-size: 97.2% 100%; background-position: 14px 0px; background-repeat: no-repeat; text-align: center;}
 #laptopbottom{padding: 100px;background-image: url(laptopbottom.png); background-size: 100% 120%; background-position: -2.6px -15px; background-repeat: no-repeat; text-align: center;}
 #table{padding: 0px 150px; width: 100%; margin: auto; border-spacing: 10px}
 th, td{border-radius: 12px;}
-#titlegrids{background-image: url(shortwhite.jpg); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; padding: 13px; text-align: center; color: darkslateblue;}
+#titlegrids{background-image: url(shortwhite.jpg); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; padding: 13px; text-align: center; color: rgb(0, 0, 0);}
 #grids{background-image: url(longblack.jpg);background-size: 100% 100%;background-position: center;background-repeat: no-repeat; padding: 13px; text-align: center; color: lightgrey;}
 #longkey{background-image: url(longwhite.jpg); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; padding: 13px;text-align: center;}
 #onbutton{position: absolute; left: 1265px; bottom: 125px;}
 #onbutton img{width: 80px; height: 80px;}
 #blackspace{padding: 50px;}
-#wholelaptop{background-image: url(gradientbackground.jpg); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+#laptopbg{background-image: url(glowingstreaks.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
 
-#spaghettilink{padding: 30px; background-color: lightgrey; text-align: center;}
 #rowsofidenticalmen{text-align: center; font-size: 40px;}
 #rowwithdiff{text-align: center; font-size: 40px;}
 #mousepoo{text-decoration: none;}
 #rowsofidenticalmen2{text-align: center; font-size: 40px; padding: 0px 0px 30px 0px;}
-#oddoneout{padding: 30px; text-align: center;}
+#oddoneout{padding: 30px; text-align: center; color: lightgoldenrodyellow; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: lighter;}
+#oddoneoutbg{background-image: url(blueglowingflow.gif); background-position: center; background-size: 100%; background-repeat: no-repeat;}
 
-#indexbg{color: black; background-image: url(windows.jpg); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; padding: 300px; text-align: center;}
+#strawberryelephant{display: flex; text-align: center; align-items: center; padding:30px;}
+#strawberryelephant img{width: 15%;}
+
+#spaghettibg{color:white; background-image: url(darkwall.png);background-position: center;background-size: 100%; background-repeat: no-repeat; text-align: center;}
 
 #desktopbg{background-image: url(desktop.jpg); background-position: center; background-size: 100% 100%;background-repeat: no-repeat; padding: 438px;}
-
 #notification{border: 5px groove lightgrey; box-shadow: 3px 5px 10px rgba(0,0,0,0.3); position: fixed; top: 100px; left: 100px; font-family: monospace;}
 #errorbox{background-color: white;text-align: left; align-items: center; color: white; font-family: monospace; color: black; padding: 30px;}
 #closebutton{padding: 5px; background: rgb(22, 22, 124); color: white; display: flex; text-align: right; flex: 1;}
 #closebutton p{text-align: left; flex: 1}
 
-footer{padding: 15px; background-color:  rgb(19, 19, 160); color: white; text-align:center; align-items: center; border: 5px groove lightgrey; box-shadow: 3px 5px 10px rgba(0,0,0,0.3); font-family: monospace;}
-footer img{border: 5px groove lightgrey; width: 98%; height: 40%;}
+footer{padding: 15px; color: white; text-align:center; align-items: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+footer img{ width: 30%; height: 30%;}
+#footerbottom{padding: 30px;}
+
