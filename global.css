@@ -1,4 +1,4 @@
-*{margin: 0; padding: 0;}
+*{margin: 0; padding: 0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: lighter;}
 body{cursor: url(robloxaimcursor.png), auto;}
 button, a{cursor: url(pixelatedpointer.png), pointer;}
 
@@ -8,8 +8,8 @@ button, a{cursor: url(pixelatedpointer.png), pointer;}
 #header .menus{padding: 15px 30px;}
 #header a{color: lightgoldenrodyellow; font-size: 30px; text-decoration: none; transition: 0.2s ease;}
 #header a:hover{color: rgb(83, 58, 31);}
-#indexbg{color: black; background-image: url(coral.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; text-align: center;}
-#indexcontent{padding: 400px;}
+#indexbg{background-image: url(coral.gif); background-size: cover; background-position: center; background-repeat: no-repeat; text-align: center;}
+#indexcontent{padding: 400px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 80px; color: lightgoldenrodyellow;}
 
 #laptoptop{padding: 250px 200px; background-image: url(laptoptop.png); background-size: 110% 110%; background-position: -73px 0px; background-repeat: no-repeat; text-align: center;}
 #laptopmiddle{padding: 30px; background-image: url(laptopmiddle.png); background-size: 97.2% 100%; background-position: 14px 0px; background-repeat: no-repeat; text-align: center;}
@@ -29,16 +29,103 @@ th, td{border-radius: 12px;}
 #mousepoo{text-decoration: none;}
 #rowsofidenticalmen2{text-align: center; font-size: 40px; padding: 0px 0px 30px 0px;}
 #oddoneout{padding: 30px; text-align: center; color: lightgoldenrodyellow; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: lighter;}
-#lilgames{background-image: url(blueglowingflow.gif); background-position: center; background-size: 100%; background-repeat: no-repeat;}
+#lilgames{background-image: url(blueglowingflow.gif); background-position: center; background-size: 100% 100%; background-repeat: no-repeat;}
 
-#strawberryelephant{display: flex; text-align: center; align-items: center; padding:30px;}
-#strawberryelephant img{width: 10%;}
-#elephant1:hover{content: url(smallerbluestrawberryelephant.png);}
+#strawberries h1{padding: 30px; text-align: center; color: lightgoldenrodyellow; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: lighter;}
+#strawberryrow1{display: flex; text-align: center; align-items: center; padding:0px 100px;}
+#strawberryrow1 img{width: 10%;}
+#elephant1{flex: 1;}
+#elephant2{flex: 1;}
+#elephant3{flex: 1;}
+#elephant4{flex: 1;}
+#elephant5{flex: 1;}
+#elephant6{flex: 1;}
+#elephant7{flex: 1;}
+#elephant8{flex: 1;}
+#elephant1:hover{content: url(bluestrawberryelephant.png);}
 #elephant2:hover{content: url(smallerbluestrawberryelephant.png);}
 #elephant3:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant4:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant4:hover{content: url(lightbluestrawberryelephamt.png);}
 #elephant5:hover{content: url(smallerbluestrawberryelephant.png);}
 #elephant6:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant7:hover{content: url(silverstrawberryelephant.png);}
+#elephant8:hover{content: url(smallerbluestrawberryelephant.png);}
+
+#strawberryrow2{display: flex; text-align: center; align-items: center; padding:0px 100px;}
+#strawberryrow2 img{width: 10%;}
+#elephant9{flex: 1;}
+#elephant10{flex: 1;}
+#elephant11{flex: 1;}
+#elephant12{flex: 1;}
+#elephant13{flex: 1;}
+#elephant14{flex: 1;}
+#elephant15{flex: 1;}
+#elephant16{flex: 1;}
+#elephant9:hover{content: url(greenstrawberryelephant.png);}
+#elephant10:hover{content: url(greenstrawberryelephant.png);}
+#elephant11:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant12:hover{content: url(greenstrawberryelephant.png);}
+#elephant13:hover{content: url(bluestrawberryelephant.png);}
+#elephant14:hover{content: url(goldenstrawberryelephant.png);}
+#elephant15:hover{content: url(purplestrawberryelephant.png);}
+#elephant16:hover{content: url(greenstrawberryelephant.png);}
+
+#strawberryrow3{display: flex; text-align: center; align-items: center; padding:0px 100px;}
+#strawberryrow3 img{width: 10%;}
+#elephant17{flex: 1;}
+#elephant18{flex: 1;}
+#elephant19{flex: 1;}
+#elephant20{flex: 1;}
+#elephant21{flex: 1;}
+#elephant22{flex: 1;}
+#elephant23{flex: 1;}
+#elephant24{flex: 1;}
+#elephant17:hover{content: url(purplestrawberryelephant.png);}
+#elephant18:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant19:hover{content: url(purplestrawberryelephant.png);}
+#elephant20:hover{content: url(purplestrawberryelephant.png);}
+#elephant21:hover{content: url(purplestrawberryelephant.png);}
+#elephant22:hover{content: url(purplestrawberryelephant.png);}
+#elephant23:hover{content: url(purplestrawberryelephant.png);}
+#elephant24:hover{content: url(lightbluestrawberryelephamt.png);}
+
+#strawberryrow4{display: flex; text-align: center; align-items: center; padding:0px 100px;}
+#strawberryrow4 img{width: 10%;}
+#elephant25{flex: 1;}
+#elephant26{flex: 1;}
+#elephant27{flex: 1;}
+#elephant28{flex: 1;}
+#elephant29{flex: 1;}
+#elephant30{flex: 1;}
+#elephant31{flex: 1;}
+#elephant32{flex: 1;}
+#elephant25:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant26:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant27:hover{content: url(purplestrawberryelephant.png);}
+#elephant28:hover{content: url(purplestrawberryelephant.png);}
+#elephant29:hover{content: url(lightbluestrawberryelephamt.png);}
+#elephant30:hover{content: url(purplestrawberryelephant.png);}
+#elephant31:hover{content: url(purplestrawberryelephant.png);}
+#elephant32:hover{content: url(orangestawberryelephant.png);}
+
+#strawberryrow5{display: flex; text-align: center; align-items: center; padding:0px 100px 100px 100px;}
+#strawberryrow5 img{width: 10%;}
+#elephant33{flex: 1;}
+#elephant34{flex: 1;}
+#elephant35{flex: 1;}
+#elephant36{flex: 1;}
+#elephant37{flex: 1;}
+#elephant38{flex: 1;}
+#elephant39{flex: 1;}
+#elephant40{flex: 1;}
+#elephant33:hover{content: url(silverstrawberryelephant.png);}
+#elephant34:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant35:hover{content: url(purplestrawberryelephant.png);}
+#elephant36:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant37:hover{content: url(lightbluestrawberryelephamt.png);}
+#elephant38:hover{content: url(purplestrawberryelephant.png);}
+#elephant39:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant40:hover{content: url(greenstrawberryelephant.png);}
 
 #spaghettibg{color:white; background-image: url(darkwall.png);background-position: center;background-size: 100%; background-repeat: no-repeat; text-align: center;}
 
