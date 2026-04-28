@@ -33,7 +33,7 @@ th, td{border-radius: 12px;}
 
 #strawberries h1{padding: 30px; text-align: center; color: lightgoldenrodyellow; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: lighter;}
 #strawberryrow1{display: flex; text-align: center; align-items: center; padding:0px 100px;}
-#strawberryrow1 img{width: 10%;}
+#strawberryrow1 img{width: 100%;}
 #elephant1{flex: 1;}
 #elephant2{flex: 1;}
 #elephant3{flex: 1;}
@@ -42,17 +42,17 @@ th, td{border-radius: 12px;}
 #elephant6{flex: 1;}
 #elephant7{flex: 1;}
 #elephant8{flex: 1;}
-#elephant1:hover{content: url(bluestrawberryelephant.png);}
-#elephant2:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant3:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant4:hover{content: url(lightbluestrawberryelephamt.png);}
-#elephant5:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant6:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant7:hover{content: url(silverstrawberryelephant.png);}
-#elephant8:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant1:hover{content: url(smallerredstrawberryelephant.png);}
+#elephant2:hover{content: url(bluestrawberryelephant.png);}
+#elephant3:hover{content: url(smallerredstrawberryelephant.png);}
+#elephant4:hover{content: url(yellowstrawberryelephant.png);}
+#elephant5:hover{content: url(lightbluestrawberryelephamt.png);}
+#elephant6:hover{content: url(greenstrawberryelephant.png);}
+#elephant7:hover{content: url(purplestrawberryelephant.png);}
+#elephant8:hover{content: url(blackstrawberryelephant.png);}
 
 #strawberryrow2{display: flex; text-align: center; align-items: center; padding:0px 100px;}
-#strawberryrow2 img{width: 10%;}
+#strawberryrow2 img{width: 100%;}
 #elephant9{flex: 1;}
 #elephant10{flex: 1;}
 #elephant11{flex: 1;}
@@ -61,17 +61,17 @@ th, td{border-radius: 12px;}
 #elephant14{flex: 1;}
 #elephant15{flex: 1;}
 #elephant16{flex: 1;}
-#elephant9:hover{content: url(greenstrawberryelephant.png);}
-#elephant10:hover{content: url(greenstrawberryelephant.png);}
-#elephant11:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant9:hover{content: url(yellowstrawberryelephant.png);}
+#elephant10:hover{content: url(purplestrawberryelephant.png);}
+#elephant11:hover{content: url(pinkstrawberryelephant.png);}
 #elephant12:hover{content: url(greenstrawberryelephant.png);}
 #elephant13:hover{content: url(bluestrawberryelephant.png);}
-#elephant14:hover{content: url(goldenstrawberryelephant.png);}
-#elephant15:hover{content: url(purplestrawberryelephant.png);}
-#elephant16:hover{content: url(greenstrawberryelephant.png);}
+#elephant14:hover{content: url(skeletonstrawberryelephant.png);}
+#elephant15:hover{content: url(orangestawberryelephant.png);}
+#elephant16:hover{content: url(smallerredstrawberryelephant.png);}
 
 #strawberryrow3{display: flex; text-align: center; align-items: center; padding:0px 100px;}
-#strawberryrow3 img{width: 10%;}
+#strawberryrow3 img{width: 100%;}
 #elephant17{flex: 1;}
 #elephant18{flex: 1;}
 #elephant19{flex: 1;}
@@ -80,17 +80,17 @@ th, td{border-radius: 12px;}
 #elephant22{flex: 1;}
 #elephant23{flex: 1;}
 #elephant24{flex: 1;}
-#elephant17:hover{content: url(purplestrawberryelephant.png);}
-#elephant18:hover{content: url(smallerbluestrawberryelephant.png);}
+#elephant17:hover{content: url(lightbluestrawberryelephamt.png);}
+#elephant18:hover{content: url(robotstrawberryelephant.png);}
 #elephant19:hover{content: url(purplestrawberryelephant.png);}
-#elephant20:hover{content: url(purplestrawberryelephant.png);}
-#elephant21:hover{content: url(purplestrawberryelephant.png);}
-#elephant22:hover{content: url(purplestrawberryelephant.png);}
-#elephant23:hover{content: url(purplestrawberryelephant.png);}
-#elephant24:hover{content: url(lightbluestrawberryelephamt.png);}
+#elephant20:hover{content: url(glassstrawberryelephant.png);}
+#elephant21:hover{content: url(pinkstrawberryelephant.png);}
+#elephant22:hover{content: url(yellowstrawberryelephant.png);}
+#elephant23:hover{content: url(bronzestrawberryelephant.png);}
+#elephant24:hover{content: url(marblewhitestrawberryelephant.png);}
 
 #strawberryrow4{display: flex; text-align: center; align-items: center; padding:0px 100px;}
-#strawberryrow4 img{width: 10%;}
+#strawberryrow4 img{width: 100%;}
 #elephant25{flex: 1;}
 #elephant26{flex: 1;}
 #elephant27{flex: 1;}
@@ -99,17 +99,17 @@ th, td{border-radius: 12px;}
 #elephant30{flex: 1;}
 #elephant31{flex: 1;}
 #elephant32{flex: 1;}
-#elephant25:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant26:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant27:hover{content: url(purplestrawberryelephant.png);}
-#elephant28:hover{content: url(purplestrawberryelephant.png);}
-#elephant29:hover{content: url(lightbluestrawberryelephamt.png);}
-#elephant30:hover{content: url(purplestrawberryelephant.png);}
-#elephant31:hover{content: url(purplestrawberryelephant.png);}
-#elephant32:hover{content: url(orangestawberryelephant.png);}
+#elephant25:hover{content: url(blackstrawberryelephant.png);}
+#elephant26:hover{content: url(orangestawberryelephant.png);}
+#elephant27:hover{content: url(skeletonstrawberryelephant.png);}
+#elephant28:hover{content: url(silverstrawberryelephant.png);}
+#elephant29:hover{content: url(greenstrawberryelephant.png);}
+#elephant30:hover{content: url(robotstrawberryelephant.png);}
+#elephant31:hover{content: url(glassstrawberryelephant.png);}
+#elephant32:hover{content: url(purplestrawberryelephant.png);}
 
 #strawberryrow5{display: flex; text-align: center; align-items: center; padding:0px 100px 100px 100px;}
-#strawberryrow5 img{width: 10%;}
+#strawberryrow5 img{width: 100%;}
 #elephant33{flex: 1;}
 #elephant34{flex: 1;}
 #elephant35{flex: 1;}
@@ -118,14 +118,14 @@ th, td{border-radius: 12px;}
 #elephant38{flex: 1;}
 #elephant39{flex: 1;}
 #elephant40{flex: 1;}
-#elephant33:hover{content: url(silverstrawberryelephant.png);}
-#elephant34:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant35:hover{content: url(purplestrawberryelephant.png);}
-#elephant36:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant37:hover{content: url(lightbluestrawberryelephamt.png);}
-#elephant38:hover{content: url(purplestrawberryelephant.png);}
-#elephant39:hover{content: url(smallerbluestrawberryelephant.png);}
-#elephant40:hover{content: url(greenstrawberryelephant.png);}
+#elephant33:hover{content: url(marblewhitestrawberryelephant.png);}
+#elephant34:hover{content: url(bronzestrawberryelephant.png);}
+#elephant35:hover{content: url(goldenstrawberryelephant.png);}
+#elephant36:hover{content: url(blackstrawberryelephant.png);}
+#elephant37:hover{content: url(pinkstrawberryelephant.png);}
+#elephant38:hover{content: url(skeletonstrawberryelephant.png);}
+#elephant39:hover{content: url(silverstrawberryelephant.png);}
+#elephant40:hover{content: url(bluestrawberryelephant.png);}
 
 #spaghettibg{color:white; background-image: url(darkwall.png);background-position: center;background-size: 100%; background-repeat: no-repeat; text-align: center;}
 
