@@ -48,6 +48,7 @@ footer{background-image: url(woodtexture.jpg); padding: 30px; background-positio
 footer img{width:13%}
 
 #sillyplanetbody{overflow: hidden; background-image: url(mariokart.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; height: 100%}
+#saturncat{width: 8%;}
 #flyingpenguin{width:15%; position: absolute; top: 50px; animation: fly 6s linear infinite;}
 @keyframes fly{0% {transform: translateX(100vw); opacity: 1;} 50%{transform: translateX(-100px); opacity: 1;} 45%{transform: translateX(-100px); opacity: 1;} 99%{transform: translateX(-100px); opacity: 0;} 100%{transform: translateX(-100px); opacity: 1;}}
 @keyframes fly {0% {transform: translateX(100vw); opacity: 1;} 66.67% {transform: translateX(-100px); opacity: 1;} 66.68% {opacity: 0;} 100% {transform: translateX(100vw); opacity: 0;}}
@@ -60,3 +61,16 @@ footer img{width:13%}
 @keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}
 #tennisballbird{width: 8%; position: absolute; top: 150px; left: 600px; animation: swirl 6s linear infinite;}
 @keyframes swirl {0% {transform: translate(200px, 200px) rotate(0deg);}25% {transform: translate(300px, 150px) rotate(90deg);}50% {transform: translate(400px, 250px) rotate(180deg);}75% {transform: translate(300px, 350px) rotate(270deg);}100% {transform: translate(200px, 200px) rotate(360deg);}}
+
+#zenbody{background-image: url(lotuszen.gif); background-size: 100% 100%; height: 100%; background-position: center; background-repeat: no-repeat;}
+#zendog{width:5%;}
+#smirkdog{width:15%; position: fixed; bottom: -45px; animation: giggle 9s ease-in-out infinite;}
+@keyframes giggle {0% {transform: translate(10vw, 100vh);opacity: 0;}5% {transform: translate(10vw, 0);opacity: 1;}8%  { transform: translate(10vw, -10px); }11% { transform: translate(10vw, 0); }14% { transform: translate(10vw, -6px); }17% { transform: translate(10vw, 0); }25% {transform: translate(10vw, 100vh);opacity: 0;}33% {transform: translate(70vw, 100vh);opacity: 0;}38% {transform: translate(70vw, 0);opacity: 1;}41% { transform: translate(70vw, -10px); }44% { transform: translate(70vw, 0); }47% { transform: translate(70vw, -6px); }50% { transform: translate(70vw, 0); }58% {transform: translate(70vw, 100vh);opacity: 0;} 66% {transform: translate(40vw, 100vh);opacity: 0;}71% {transform: translate(40vw, 0);opacity: 1;}74% { transform: translate(40vw, -10px); }77% { transform: translate(40vw, 0); }80% { transform: translate(40vw, -6px); }83% { transform: translate(40vw, 0); }100% {transform: translate(40vw, 100vh);opacity: 0;}}
+#zencow{width: 20%; position: absolute; right: 50px; top: 50px; animation: meditate 4s ease-in-out infinite;}
+@keyframes meditate{0% {transform: translateY(0);}50% {transform: translateY(-50px);}100% {transform: translateY(0);}}
+#relaxedfrog{width: 20%; position: absolute; left:430px; bottom: 180px; animation: breathe 5s ease-in-out infinite;}
+@keyframes breathe {0% {transform: scale(1);}50% {transform: scale(1.1);}100% {transform: scale(1);}}
+#hedgehogpirate{width: 15%; position: absolute; left: 800px; top: 350px; animation: float-tilt 4s ease-in-out infinite;}
+@keyframes float-tilt {0%   { transform: rotate(-10deg); }50%  { transform: rotate(10deg); }100% { transform: rotate(-10deg); }}
+#catsinboat{width: 10%; position: absolute; top: 220px; left:350px; animation: rowboat 3s ease-in-out infinite alternate}
+@keyframes rowboat{0% { transform: translateX(0); }100% { transform: translateX(-200px); }}
