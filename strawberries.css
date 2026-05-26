@@ -1,12 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+* {margin: 0; padding: 0;}
 
-#red {
-    background-image: url(strawberrybg.jpg);
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height:100%;
-}
+#red {background-image: url(strawberrybg.jpg);background-size: 100% 100%;background-position: center; background-repeat: no-repeat;height:100%; text-align: center; overflow: hidden;}
+#red #headerorfooter{background-image: url(strawberrybg.jpg);background-size: 100% 100%;background-position: center; background-repeat: no-repeat;padding: 50px 60px 60px 60px;}
+#red #h1{padding: 65px; font-size: 30px; text-shadow: 0 0 5px white,0 0 10px white,0 0 20px white;;}
+#gigastrawberry{ padding: 0px 30px 70px 30px;display: flex; justify-content: center; align-items: center;}
+#gigastrawberry img{width: 300px; border-radius: 20px; animation: spin 5s linear infinite;}
+@keyframes spin {from{transform: rotate(0deg);} to{transform: rotate(360deg);}}
+
+#blue {background-image: url(bluestrawberrybg.jpg);background-size: 100% 100%;background-position: center; background-repeat: no-repeat;height:100%; text-align: center; overflow: hidden;}
+#blue #headerorfooter{background-image: url(bluestrawberrybg.jpg);background-size: 100% 100%;background-position: center; background-repeat: no-repeat;padding: 50px 60px 60px 60px;}
+#red #h1{padding: 65px; font-size: 30px; text-shadow: 0 0 5px white,0 0 10px white,0 0 20px white;;}
+#idkyet{ padding: 0px 30px 70px 30px;display: flex; justify-content: center; align-items: center;}
+#idkyet img{width: 300px; border-radius: 20px; animation: spin 5s linear infinite;}
+@keyframes spin {from{transform: rotate(0deg);} to{transform: rotate(360deg);}}
+

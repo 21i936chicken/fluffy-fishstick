@@ -37,12 +37,12 @@ header a:hover{color: rgb(149, 90, 44);}
 #caveslink{font-size: 30px; text-align: center; padding: 100px; background-image: url(cavescover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
 #caveslink a{color: grey; text-decoration: none;}
 #caveslink a:hover{color: rgb(70, 67, 67);}
-#caves{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(caves.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+#caves{margin: 0;padding: 0px; width: 100%;height: 100%; background-image: url(cave2.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
 
 #dreamlink{font-size: 30px; text-align: center; padding: 100px; background-color: black;}
 #dreamlink a{color: white; text-decoration: none;}
 #dreamlink a:hover{color: red;}
-#dream{text-align: right; align-items: flex-start; width: 100%;height: 100%; background-image: url(); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;}
+#dream{text-align: right; align-items: flex-start; width: 100%;height: 100%; background-image: url(supermarket.gif); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; background-color: black;}
 
 footer{background-image: url(woodtexture.jpg); padding: 30px; background-position: center; background-repeat: no-repeat; background-size: 100% 100%; text-align: center;}
 footer img{width:13%}
